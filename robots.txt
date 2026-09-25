@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://coloradospringswaterdamage.com/sitemap.xml
+Sitemap: https://coloradospringswaterrestoration.com/sitemap.xml

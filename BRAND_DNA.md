@@ -1,5 +1,5 @@
 # Brand DNA — Colorado Springs Water Damage Restoration
-# coloradospringswaterdamage.com
+# coloradospringswaterrestoration.com
 # Last updated: 2026-09-24
 # NOTE: Items marked [OWNER] should be updated when lead slot is rented to a real contractor
 
