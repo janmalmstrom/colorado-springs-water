@@ -255,6 +255,8 @@ article li { margin-bottom: .4rem; }
 
 .faq-block { margin-top: 2rem; }
 .faq-block h2 { font-size: 1.3rem; font-weight: 700; margin-bottom: 1rem; }
+.faq-block h3 { font-size: 1.0625rem !important; line-height: 1.6; }
+.faq-block p { font-size: 1.0625rem !important; line-height: 1.85 !important; }
 .faq-list { list-style: none; }
 .faq-list dt { font-weight: 600; font-size: .97rem; padding: .85rem 0 .3rem; color: var(--dark); border-top: 1px solid var(--border); }
 .faq-list dd { font-size: .92rem; color: var(--muted); padding-bottom: .6rem; margin: 0; line-height: 1.65; }
