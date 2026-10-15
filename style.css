@@ -214,8 +214,20 @@ nav a:hover, nav a.active { color: #fff; border-bottom-color: var(--orange); }
 
 /* ── Page Hero (inner pages) ───────────────────────────── */
 .page-hero { background: var(--blue-dark); color: #fff; padding: 2.5rem 1.5rem; }
+.page-hero-img {
+  background:
+    linear-gradient(135deg, rgba(15,23,42,.88) 0%, rgba(30,58,138,.82) 50%, rgba(30,64,175,.78) 100%),
+    url('/images/hero-flood.webp') center/cover no-repeat;
+  padding: 4rem 1.5rem;
+}
 .page-hero h1 { font-size: clamp(1.5rem, 3vw, 2.2rem); font-weight: 800; margin-bottom: .4rem; }
 .page-hero p { color: #bfdbfe; font-size: 1rem; }
+
+/* ── Service section with image ────────────────────────── */
+.service-split { display: flex; gap: 2.5rem; align-items: flex-start; }
+.service-split .service-block { flex: 1; max-width: none; }
+.service-split-img { flex: 0 0 280px; max-width: 280px; padding-top: .25rem; }
+.service-split-img img { width: 100%; height: auto; border-radius: 10px; box-shadow: 0 8px 28px rgba(0,0,0,.14); }
 
 /* ── Services page ─────────────────────────────────────── */
 .service-block { max-width: 860px; }
@@ -318,4 +330,6 @@ article li { margin-bottom: .4rem; }
   .btn-secondary { margin-left: 0; margin-top: .5rem; display: inline-block; }
   .steps-layout { flex-direction: column; }
   .steps-img { max-width: 100%; flex: none; position: static; }
+  .service-split { flex-direction: column; }
+  .service-split-img { max-width: 100%; flex: none; }
 }
