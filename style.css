@@ -133,7 +133,7 @@ nav a:hover, nav a.active { color: #fff; border-bottom-color: var(--orange); }
 }
 .trust-item:last-child { border-right: none; }
 .trust-item .num { font-size: 1.6rem; font-weight: 800; line-height: 1; }
-.trust-item .label { font-size: .78rem; font-weight: 500; opacity: .9; margin-top: .2rem; }
+.trust-item .label { font-size: .78rem; font-weight: 500; color: #fff; margin-top: .2rem; }
 
 /* ── Sections ──────────────────────────────────────────── */
 .section { padding: 3.5rem 1.5rem; }
@@ -178,7 +178,7 @@ nav a:hover, nav a.active { color: #fff; border-bottom-color: var(--orange); }
 /* ── Emergency CTA ─────────────────────────────────────── */
 .emergency-cta { background: var(--orange); color: #fff; padding: 2rem 1.5rem; text-align: center; }
 .emergency-cta h2 { font-size: 1.5rem; font-weight: 800; margin-bottom: .4rem; }
-.emergency-cta p { margin-bottom: 1rem; opacity: .9; }
+.emergency-cta p { margin-bottom: 1rem; color: #fff; }
 
 /* ── Forms ─────────────────────────────────────────────── */
 .form-group { margin-bottom: 1.1rem; }
@@ -210,7 +210,7 @@ nav a:hover, nav a.active { color: #fff; border-bottom-color: var(--orange); }
   cursor: pointer;
 }
 .btn-submit:hover { background: var(--orange-dark); }
-.disclaimer { font-size: .78rem; color: #94a3b8; margin-top: 1rem; line-height: 1.5; }
+.disclaimer { font-size: .78rem; color: #64748b; margin-top: 1rem; line-height: 1.5; }
 
 /* ── Page Hero (inner pages) ───────────────────────────── */
 .page-hero { background: var(--blue-dark); color: #fff; padding: 2.5rem 1.5rem; }
@@ -301,7 +301,7 @@ article li { margin-bottom: .4rem; }
 .sidebar-links a:hover { color: var(--blue-dark); }
 .sidebar-cta { background: var(--orange); color: #fff; border-radius: 8px; padding: 1.25rem; text-align: center; }
 .sidebar-cta h4, .sidebar-cta h3 { font-size: .9rem; font-weight: 700; margin-bottom: .4rem; }
-.sidebar-cta p { font-size: .82rem; opacity: .9; margin-bottom: .75rem; }
+.sidebar-cta p { font-size: .82rem; color: #fff; margin-bottom: .75rem; }
 
 /* ── Footer ────────────────────────────────────────────── */
 .site-footer { background: #0f172a; color: #94a3b8; padding: 2.5rem 1.5rem 1rem; }
